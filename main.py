@@ -1,5 +1,5 @@
 import pandas as pd
 
-df = pd.read_csv('hh.csv')
-print(df[df['зарплата'] > 100000])
+df = pd.read_csv('dz.csv')
+print(df.Salary, 'Москва')
 
