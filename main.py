@@ -1,5 +1,5 @@
 import pandas as pd
 
-df = pd.read_csv('hh.csv')
-print(df.describe())
+df = pd.read_csv('World-happiness-report-2024.csv')
+print(df[['Country name', 'Regional indicator']])
 
